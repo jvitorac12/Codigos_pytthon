@@ -30,7 +30,7 @@ fmv.zera_parametros_configuracao()
 # Verificando se todas as pastas referente aos dias de ano atual existem no diretório de destino. Caso não existam, quer dize que é provavel que exista arquivos referentes as cameras 7 e 8 nestas pastas.
 pastas = []
 
-# O erro me questão acontece se eu descomentar o trecho abaixo. o codigo parece que nao le as pastas ou a ignora e ja pula direto para a o envio de mensagem pelo whatsapp.
+# O erro em questão acontece se eu descomentar o trecho abaixo. o codigo parece que nao le a lista de pastas ou a ignora e ja pula direto para a o envio de mensagem pelo whatsapp.
 
 #for dir_pasta in os.listdir(origem):
 #  pasta_procurada = os.path.join(str(ano_atual)+'-'+str(mes_atual))
